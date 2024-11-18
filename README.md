@@ -1,4 +1,6 @@
 # Speech2Face
+🚨 Important Note 🚨 The previous codes may have some issues due to old versions of Python and dependencies. I am actively working to fix them in this repository!
+
 - [Final Presentation] : *https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:78875dce-14af-47ff-8aca-7a7449ef64a6#pageNum=1*
 
 This project implements a framework to convert speech to facial features as described in the CVPR 2019 paper - [Speech2Face: Learning the Face Behind a Voice](https://arxiv.org/pdf/1905.09773.pdf) by MIT CSAIL group.

@@ -45,8 +45,8 @@ def main():
 	
 	if args.num_gpu > 1:
 	    audemb_model.multi_gpu_model(args.num_gpu)
-
-	if len(args.load_model) != 0:
+	
+ 	if len(args.load_model) != 0:
 		if os.path.isfile(args.load_model):
 			audemb_model.load_weights(args.load_model)
 			print("Model Loaded")
